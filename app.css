@@ -40,9 +40,13 @@ body {
     text-align: center;
 }
 
+.destination:hover h2{
+}
+
 h2 {
     margin: 0;
     transform: rotate(-45deg);
+    transition: transfor, 0.5s;
     text-shadow: 0 0 5px #01579b;
 }
 
